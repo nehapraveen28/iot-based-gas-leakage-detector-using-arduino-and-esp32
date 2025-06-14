@@ -1,0 +1,6 @@
+Gas leakage is a critical safety concern in residential, commercial, and industrial environments.
+This project presents the design and implementation of an IoT-based Gas Leakage Detection System using Arduino and ESP32 to ensure real-time monitoring, immediate alert generation,
+and remote control capabilities. The system utilizes the MQ5 gas sensor to detect combustible gas concentrations such as LPG, methane, and propane. 
+When the gas level exceeds a defined threshold, the system activates a buzzer and LED for local alerting, displays the gas concentration on an I2C LCD, and automatically controls a servo motor that simulates closing a safety valve.
+For remote notification, the system sends alerts via Telegram and email (SMTP) and integrates with the Blynk IoT platform, enabling users to monitor gas levels and manually override valve control from a mobile application.
+The ESP32 handles Wi-Fi connectivity and cloud interaction, while the Arduino manages sensor data, display, and actuator response. The Blynk app provides a real-time interface with a virtual switch (V0) to control the servo motor manually. This system offers a low-cost, reliable, and scalable solution for gas leakage detection and safety management, combining local and remote actions to prevent potential hazards.
