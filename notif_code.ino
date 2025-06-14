@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3gdYIkouO"
-#define BLYNK_TEMPLATE_NAME "esp32 gas"
-#define BLYNK_AUTH_TOKEN "_56EHh79zybYJxiimMhmvMDUxQnbzTDm"
+#define BLYNK_TEMPLATE_ID "your_blynk_template_id"
+#define BLYNK_TEMPLATE_NAME "your_blynk_template_name"
+#define BLYNK_AUTH_TOKEN "your_blynk_auth_code"
 
 #include <WiFi.h>
 #include <Wire.h>
@@ -11,22 +11,22 @@
 #include <BlynkSimpleEsp32.h>
 
 // ------------------- WiFi Credentials -------------------
-const char* ssid = "Neha";
-const char* pass = "zyxwabcd";
+const char* ssid = "hotspot_name";
+const char* pass = "hotspot_password";
 
 // ------------------- Blynk Auth Token -------------------
-char auth[] = "_56EHh79zybYJxiimMhmvMDUxQnbzTDm";
+char auth[] = "your_blynk_auth_token";
  
 // ------------------- Email SMTP Credentials -------------------
 #define SMTP_HOST "smtp.gmail.com"
 #define SMTP_PORT 465
-#define AUTHOR_EMAIL "nidhi.harish0726@gmail.com"
-#define AUTHOR_PASSWORD "zhud gimv oukp aftm"
-#define RECIPIENT_EMAIL "nehapraveen2810@gmail.com"
+#define AUTHOR_EMAIL "sender_email"
+#define AUTHOR_PASSWORD "author_password"
+#define RECIPIENT_EMAIL "receiver_email"
 
 // ------------------- Telegram Bot Credentials -------------------
-const char* telegramToken = "7606395781:AAHhnHZToIcnw9y8CTwtrKhguyp9z8orNcI";
-const char* chatID = "1210949323";
+const char* telegramToken = "your_telegram_token";
+const char* chatID = "your_telegram_chatid";
 
 // ------------------- Hardware Pins -------------------
 #define MQ5_PIN 34
